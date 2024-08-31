@@ -1,18 +1,14 @@
---[[
- _____ _                       _     _   _____                                            _    
-|_   _| |__   ___  __   _____ (_) __| | |  ___| __ __ _ _ __ ___   _____      _____  _ __| | __
-  | | | '_ \ / _ \ \ \ / / _ \| |/ _` | | |_ | '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
-  | | | | | |  __/  \ V / (_) | | (_| | |  _|| | | (_| | | | | | |  __/\ V  V / (_) | |  |   < 
-  |_| |_| |_|\___|   \_/ \___/|_|\__,_| |_|  |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
-  
-]]
 
+	 _____ _                       _     _   _____                                            _    
+	|_   _| |__   ___  __   _____ (_) __| | |  ___| __ __ _ _ __ ___   _____      _____  _ __| | __
+	  | | | '_ \ / _ \ \ \ / / _ \| |/ _` | | |_ | '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
+	  | | | | | |  __/  \ V / (_) | | (_| | |  _|| | | (_| | | | | | |  __/\ V  V / (_) | |  |   < 
+	  |_| |_| |_|\___|   \_/ \___/|_|\__,_| |_|  |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
 
---[[
 
 
 	// [ !Disclaimer: Client side modules/code does not need to register or create components ] //
-
+	
 	-- Execution Order for Folders: 1. Libraries, 2. Modules, and 3. Execution.
 	
 	-- Within each folder each module has a ExecutionOrder Attribute:
@@ -65,4 +61,3 @@
 		self.Components.templateEvent.OnServerEvent:Connect(templateFunction)
 		self.Components.templateEvent:FireAll()
 
-]]
