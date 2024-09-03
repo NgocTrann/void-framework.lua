@@ -13,6 +13,7 @@ local voidCore = {
 	Chat = game:GetService("Chat"),
 	ContentProvider = game:GetService("ContentProvider"),
 	CAS = game:GetService("ContextActionService"),
+	CollectionService = game:GetService("CollectionService"),
 	Debris = game:GetService("Debris"),
 	DataStoreService = game:GetService("DataStoreService"),
 	GuiService = game:GetService("GuiService"),
