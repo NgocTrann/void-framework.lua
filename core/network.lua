@@ -11,7 +11,13 @@ function network.ExecuteModules(Directory: Folder)
 	
 	--// Load module
 	local function loadModule(module)
-		local requiredModule = require(module)
+		local requiredModule
+
+		if game:GetService("RunService"):IsServer() == false then
+			requiredModule = require(module:Clone())
+		else
+			requiredModule = require(module)
+		end
 		
 		--// Check for framework methods
 		
